@@ -43,8 +43,8 @@ int main()
 
 	printf("이진 탐색 트리에 5개의 정수를 삽입 하시오.\n");
 	for(int i=0; i<5; i++){
-		scanf_s("%d", &temp);
-		insert_node(root, temp);
+		scanf("%d", &temp);
+		root = insert_node(root, temp);
 	}
 	
 	printf("최소값: %d, 최대값: %d\n", min(root), max(root));
