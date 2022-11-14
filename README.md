@@ -1,4 +1,4 @@
-# 05-Tree
+# 06-Tree
 
 - 이진 탐색 트리에서 최소값과 최대값을 탐색하기 위한 함수 int min(TreeNode *root), int max(TreeNode *root)를 반복문을 사용하여 작서하시오.
   * 이진 탐색 트리의 구현은 교재 (프로그램 8.13) 참고
